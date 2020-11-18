@@ -1,8 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import 'customDialog.dart';
-
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -81,17 +79,7 @@ class HomePage extends StatelessWidget {
                       Icons.attach_file_sharp,
                       size: 25,
                     ),
-                    onPressed: () {
-                      showDialog(
-                        context: context,
-                        builder: (BuildContext context) => CustomDialog(
-                          title: "Success",
-                          description:
-                              "Flutter Tutorial is best provide tutorial.",
-                          buttonText: "Okay",
-                        ),
-                      );
-                    })
+                    onPressed: () {})
               ],
             )
           ],
